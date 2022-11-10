@@ -121,47 +121,6 @@ function App() {
 
         </div>
 
-        <div className='my-3 flex flex-col items-center'>
-
-          <div className='w-fit p-4 rounded-xl shadow-lg bg-gradient-to-l
-        from-indigo-500
-         via-purple-500
-          to-pink-500'>
-            <span className='duration-200 self-center text-4xl size490:text-5xl font-semibold whitespace-nowrap dark:text-white
-            
-            '>
-              Paletas Artesanales
-            </span>
-          </div>
-
-          <div className="px-5 py-3 flex-wrap ">
-
-          {Object.values(menuArtesanal).map((value, index) => {
-            return (
-              <div key={index} className='w-fit h-fit py-2 '>
-                <h2 className='self-center text-3xl font-semibold whitespace-nowrap dark:text-white py-4 size781:text-4xl text-center'>
-                  {value.categortia}
-                </h2> 
-                {Object.values(value.Paletas).map((value, index) => {
-                    return (
-                      <div key={index} className='flex flex-row '>
-                        <h2 className='self-center text-xl size781:text-2xl font-semibold flex-wrap dark:text-white py-2 w-60 size781:w-[25rem]'>{value.nombre}</h2> 
-                        <h2 className='self-center text-xl font-semibold flex-wrap dark:text-white py-2'>$ {value.precio}</h2> 
-                      </div>
-                    );
-                  })
-                }
-                <hr className=''/>
-              </div>
-              );
-            })
-          }
-
-            
-          </div>
-
-        </div>
-
       </div> 
       
       <div className='flex flex-col justify-center items-center py-6'>
