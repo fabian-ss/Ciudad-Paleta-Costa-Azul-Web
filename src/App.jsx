@@ -122,26 +122,6 @@ function App() {
         </div>
 
       </div> 
-      
-      <div className='flex flex-col justify-center items-center py-6'>
-
-        <div className='flex justify-center w-11/12 p-4 rounded-xl shadow-lg bg-gradient-to-l
-        from-indigo-500
-         via-purple-500
-          to-pink-500'>
-
-            <span className='text-center text-4xl size490:text-5xl font-semibold  dark:text-white
-            '>
-              Paleta sólo por temporada
-            </span>
-            
-        </div>
-
-        <div className='flex justify-center border-green-700 w-11/12 overflow-auto mt-8 '>
-          <img src={PaletaTemporada} alt="Paleta Temporada" className='duration-200 rounded-3xl border-2 shadow-2xl  medium:w-10/12  medium:h-[38rem]' />
-        </div>
-
-      </div>
 
       <div className='flex flex-col justify-center items-center py-6'>
 
